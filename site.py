@@ -9,21 +9,21 @@
 # the name of a theme directory in your site's 'lib' folder.
 theme = "drcs"
 
-# Site title. GitHub template users, change this to your site title.
-title = "Christopher Simpkins, Ph.D."
 
 # Site tagline.
 # tagline = "Just another Ark site."
 
-# This custom
+# Custom output directory for GitHub Pages's "Publish from a branch" option
 out_dir = "docs"
 
-# Custom stuff for my template
-institute_link = "https://kennesaw.edu"
-institute_logo = "@root/images/MB_Horz_3Clr_whiteLtrs.png"
-headshot="@root/images/chris-simpkins-head.jpeg"
-professional_title="Assistant Professor of Computer Science"
-professional_email="christopher.simpkins@kennesaw.edu"
-personal_email="chris.simpkins@gmail.com"
-twitter=""
-github_org=""
+# GitHub template users, update these values with your own.
+# If you don't have a particular item, set it to None, e.g.:
+#   twitter_handle = None
+title = "YOUR_SITE_TITLE"
+headshot="@root/images/YOUR_HEADSHOT_PHOTO"
+professional_title ="YOUR_PROFESSIONAL_TITLE"
+professional_email ="YOUR_PROFESSIONAL_EMAIL"
+personal_email ="YOUR_PERSONAL_EMAIL"
+linkedin = "YOUR_LINKEDIN_PAGE"
+twitter_handle ="YOUR_TWITTER_HANDLE"
+github_org = "https://github.com/YOUR_GITHUB_ORG"
