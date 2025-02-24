@@ -42,8 +42,13 @@
                     {% endif %}
 
                     {% if site.github_org %}
-                    <a href="{{ site.github_org }}"><i class="fa fa-brands fa-github"></i> GitHub Org</a></i>
+                    <p><a href="{{ site.github_org }}"><i class="fa fa-brands fa-github"></i> GitHub Org</a></i></p>
                     {% endif %}
+
+                    {% if site.orcid_id %}
+                    <p><a href="https://orcid.org/{{ site.orcid_id }}"><i class="fa fa-brands fa-orcid"></i> ORCID </a></i></p>
+                    {% endif %}
+
             </div>
             </div>
             <div class="main-col">
